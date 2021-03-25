@@ -11,7 +11,7 @@ var dude, dudeAni;
 
 function preload(){
     
-    dudeAnni = loadAnimation('walking_1.png','walking_2.png','walking_3.png',
+    dudeAnni = loadImage('walking_1.png','walking_2.png','walking_3.png',
     'walking_4.png','walking_5.png','walking_6.png','walking_7.png',
     'walking_8.png');
 
@@ -23,7 +23,7 @@ engine = Engine.create();
 world = engine.world;
 
 dude = createSprite(250,500,50,50);
-dude.addAnimation('walking', dudeAni);
+dude.addImage('walking', dudeAni);
     
 }
 
